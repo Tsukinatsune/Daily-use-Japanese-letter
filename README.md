@@ -1,2 +1,228 @@
 # Daily-use-Japanese-letter
-The jōyō kanji (常用漢字) is a list of 2,136 characters json
+# StrokesBase27lib — Usage Guide
+
+> **Library CDN**
+> ```
+> https://cdn.jsdelivr.net/gh/Tsukinatsune/CDN-Javascript-project@main/StrokesBase27lib.js
+> ```
+>
+> **Data repository**
+> [github.com/Tsukinatsune/Daily-use-Japanese-letter](https://github.com/Tsukinatsune/Daily-use-Japanese-letter)
+
+---
+
+## Quick start (browser)
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/Tsukinatsune/CDN-Javascript-project@main/StrokesBase27lib.js"></script>
+<script>
+  kanjiLib.loadBothFromCdn().then(({ kanji, strokes }) => {
+    console.log(kanji.length);
+    console.log(Object.keys(strokes).length);
+  });
+</script>
+```
+
+---
+
+## Quick start (Node.js 18+)
+
+`fetch` is built in from Node 18. CDN functions work with no changes.
+
+```js
+const kanjiLib = require('./StrokesBase27lib.js');
+
+const { kanji, strokes } = await kanjiLib.loadBothFromCdn();
+console.log(kanji.length);
+console.log(Object.keys(strokes).length);
+```
+
+For Node 16 or older, polyfill `fetch` first:
+
+```js
+const fetch = require('node-fetch');
+globalThis.fetch = fetch;
+
+const kanjiLib = require('./StrokesBase27lib.js');
+const { kanji, strokes } = await kanjiLib.loadBothFromCdn();
+```
+
+`loadKanjiFromFile` and `loadStrokesFromFile` use the browser `FileReader` API and are not available in Node. Use `fs` instead:
+
+```js
+const fs = require('fs');
+
+const raw = JSON.parse(fs.readFileSync('./Kanji.json', 'utf8'));
+const kanji = Array.isArray(raw) ? raw : [raw];
+```
+
+---
+
+## API reference
+
+### `kanjiLib.loadBothFromCdn()`
+
+Fetches both `Kanji.json` and `Stroke.json` in parallel. Recommended for most projects.
+
+```js
+const { kanji, strokes } = await kanjiLib.loadBothFromCdn();
+```
+
+---
+
+### `kanjiLib.fetchKanjiData()`
+
+Fetches only `Kanji.json`.
+
+```js
+const kanji = await kanjiLib.fetchKanjiData();
+```
+
+---
+
+### `kanjiLib.fetchStrokeData()`
+
+Fetches and decodes only `Stroke.json`.
+
+```js
+const strokes = await kanjiLib.fetchStrokeData();
+```
+
+---
+
+### `kanjiLib.loadKanjiFromFile(file)`
+
+Loads kanji data from a local file input.
+
+```js
+const input = document.getElementById('myFileInput');
+input.addEventListener('change', async () => {
+  const kanji = await kanjiLib.loadKanjiFromFile(input.files[0]);
+});
+```
+
+---
+
+### `kanjiLib.loadStrokesFromFile(file)`
+
+Loads and decodes stroke data from a local file input.
+
+```js
+const strokes = await kanjiLib.loadStrokesFromFile(input.files[0]);
+```
+
+---
+
+## Drawing strokes on a `<canvas>`
+
+```js
+const { strokes } = await kanjiLib.loadBothFromCdn();
+const canvas = document.getElementById('myCanvas');
+const ctx = canvas.getContext('2d');
+const SCALE = canvas.width / 109;
+
+(strokes['日'] ?? []).forEach(d => {
+  ctx.save();
+  ctx.scale(SCALE, SCALE);
+  ctx.strokeStyle = '#1a1208';
+  ctx.lineWidth = 4;
+  ctx.lineCap = 'round';
+  ctx.lineJoin = 'round';
+  ctx.stroke(new Path2D(d));
+  ctx.restore();
+});
+```
+
+---
+
+## Animated stroke-by-stroke
+
+```js
+async function animateKanji(char, canvas) {
+  const { strokes } = await kanjiLib.loadBothFromCdn();
+  const paths = strokes[char] ?? [];
+  const ctx = canvas.getContext('2d');
+  const SCALE = canvas.width / 109;
+
+  for (const d of paths) {
+    ctx.save();
+    ctx.scale(SCALE, SCALE);
+    ctx.strokeStyle = '#1a1208';
+    ctx.lineWidth = 4;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.stroke(new Path2D(d));
+    ctx.restore();
+    await new Promise(r => setTimeout(r, 400));
+  }
+}
+
+animateKanji('日', document.getElementById('myCanvas'));
+```
+
+---
+
+## Filtering kanji
+
+```js
+const { kanji, strokes } = await kanjiLib.loadBothFromCdn();
+
+const n5       = kanji.filter(k => k.jlpt_new === 5);
+const grade1   = kanji.filter(k => k.grade === 1);
+const withData = kanji.filter(k => strokes[k.kanji]);
+const sun      = kanji.filter(k => (k.meanings ?? []).some(m => m.includes('sun')));
+```
+
+---
+
+## Local file usage (browser)
+
+```html
+<input type="file" id="kanjiFile" accept=".json">
+<input type="file" id="strokeFile" accept=".json">
+
+<script src="https://cdn.jsdelivr.net/gh/Tsukinatsune/CDN-Javascript-project@main/StrokesBase27lib.js"></script>
+<script>
+  document.getElementById('kanjiFile').addEventListener('change', async (e) => {
+    const kanji = await kanjiLib.loadKanjiFromFile(e.target.files[0]);
+  });
+
+  document.getElementById('strokeFile').addEventListener('change', async (e) => {
+    const strokes = await kanjiLib.loadStrokesFromFile(e.target.files[0]);
+  });
+</script>
+```
+
+
+
+---
+
+## Error handling
+
+```js
+try {
+  const { kanji, strokes } = await kanjiLib.loadBothFromCdn();
+} catch (err) {
+  console.error(err.message);
+}
+```
+
+---
+
+## All functions
+
+| Function | Source | Returns |
+|---|---|---|
+| `loadBothFromCdn()` | CDN | `{ kanji, strokes }` |
+| `fetchKanjiData()` | CDN | `kanji[]` |
+| `fetchStrokeData()` | CDN | `strokes{}` |
+| `loadKanjiFromFile(file)` | Local file | `kanji[]` |
+| `loadStrokesFromFile(file)` | Local file | `strokes{}` |
+
+---
+
+## Acknowledgements
+
+Thank you to **Claude AI** for helping write this documentation, **[KanjiVG](https://kanjivg.tagaini.net)** for the stroke order data, and **[Jisho](https://jisho.org)**, **[Unihan Database](https://unicode.org/charts/unihan.html)**, **[Wikipedia](https://wikipedia.org)**, **[davidluzgouveia/kanji-data](https://github.com/davidluzgouveia/kanji-data)**, and **[kanjidatabase.com](https://kanjidatabase.com)** for the kanji data.
+
+— [Tsukinatsune](https://github.com/Tsukinatsune)
