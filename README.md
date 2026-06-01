@@ -223,6 +223,43 @@ try {
 
 ## Acknowledgements
 
-Thank you to **Claude AI** for helping write this documentation, **[KanjiVG](https://kanjivg.tagaini.net)** for the stroke order data, and **[Jisho](https://jisho.org)**, **[Unihan Database](https://unicode.org/charts/unihan.html)**, **[Wikipedia](https://wikipedia.org)**, **[davidluzgouveia/kanji-data](https://github.com/davidluzgouveia/kanji-data)**, and **[kanjidatabase.com](https://kanjidatabase.com)** for the kanji data.
+**Created by [Tsukinatsune](https://github.com/Tsukinatsune) | [Artoriasphere](https://github.com/ArtoriasphereOrg) (organization)**
+
+---
+
+**AI Assistants**
+- **[Claude AI](https://claude.ai)** — Used for writing documentation, and designing diagrams and algorithms
+- **[Gemini](https://gemini.google.com)** — Used for discovering and researching data sources
+- **[Grok](https://grok.com)** — Used for finding word definitions and linguistic data
+
+**Stroke Order Data**
+- **[KanjiVG](https://kanjivg.tagaini.net)** — SVG-based kanji stroke order data
+
+**Kanji & Character Data**
+- **[Jisho](https://jisho.org)** — Japanese dictionary and kanji reference
+- **[Unihan Database](https://unicode.org/charts/unihan.html)** — Unicode Han character data including readings and meanings
+- **[davidluzgouveia/kanji-data](https://github.com/davidluzgouveia/kanji-data)** — Used `kanji-jouyou.json` as the Jōyō kanji character list only
+- **[kanjidatabase.com](https://kanjidatabase.com)** — Kanji reference and classification data
+- **[zi.tools](https://zi.tools)** — Archived images of kanji and Chinese (Hanzi) characters
+- **[Home in Mists](https://homeinmists.ilotus.org/)** — Supplementary kanji and character data
+- **[Kanji Alive](https://kanjialive.com)** — Kanji readings, meanings, and usage examples
+- **[kanji.reader.bz](https://kanji.reader.bz)** — Kanji reading and lookup reference
+- **[hc.jsecs.org](https://hc.jsecs.org)** — Historical and classical CJK character data
+- **[moji.or.jp](https://moji.or.jp)** — Japanese character standard and encoding data
+- **[dict.variants.moe.edu.tw](https://dict.variants.moe.edu.tw)** — Traditional Chinese variant character dictionary from Taiwan's Ministry of Education
+- **[Wikipedia](https://wikipedia.org)** — General reference for kanji history and linguistic context
+- **[GitHub](https://github.com)** — Hosting and access to open-source kanji datasets
+
+**Pitch Accent**
+- **[kanjium](https://github.com/mifunetoshiro/kanjium)** — Pitch accent and kanji vocabulary data
+- **[Kanshudo](https://www.kanshudo.com/howto/pitch)** — Used as a reference to verify pitch accent data
+
+**Audio / Text-to-Speech**
+- **Microsoft Text-to-Speech** — Japanese audio readings using the following voices:
+  - Microsoft Ayumi
+  - Microsoft Haruka
+  - Microsoft Ichiro
+  - Microsoft Sayaka
+  - Microsoft 圭太
 
 — [Tsukinatsune](https://github.com/Tsukinatsune)
