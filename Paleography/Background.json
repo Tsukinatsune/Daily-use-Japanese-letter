@@ -1,0 +1,1202 @@
+{
+  "chujian": {
+    "description": "Chu Bamboo Slips, regional Warring States period writing from the state of Chu, around 300 BCE",
+    "year": {
+      "gregorian": -300,
+      "buddhist": 243
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Chu_bamboo_slips",
+      "https://www.chinaknowledge.de/Literature/Terms/bambooslips.html",
+      "https://ctext.org/chu-jian"
+    ]
+  },
+  "jinwen": {
+    "description": "Bronze Script, ancient characters engraved or cast on ritual bronze vessels during the Shang and Zhou Dynasties, around 1046 BCE",
+    "year": {
+      "gregorian": -1046,
+      "buddhist": -503
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Chinese_bronze_inscriptions",
+      "https://www.metmuseum.org/toah/hd/shzh/hd_shzh.htm",
+      "https://www.britannica.com/art/bronze-script"
+    ]
+  },
+  "chuanchao": {
+    "description": "Historical manual copying and manuscript transcription methods used to preserve ancient text characters across generations, popular in catalog compilations around 986 CE",
+    "year": {
+      "gregorian": 986,
+      "buddhist": 1529
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Textual_criticism#Chinese_textual_criticism",
+      "https://ctext.org/library.pl?if=en",
+      "https://guides.library.harvard.edu/c.php?g=310706"
+    ]
+  },
+  "calligraphyxing": {
+    "description": "Running Script (Xingshu), a fluid semi-cursive calligraphic style balancing speed and legibility, popularized around 353 CE",
+    "year": {
+      "gregorian": 353,
+      "buddhist": 896
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Semi-cursive_script",
+      "https://www.metmuseum.org/toah/hd/chcl/hd_chcl.htm",
+      "https://asiasociety.org/education/chinese-calligraphy"
+    ]
+  },
+  "calligraphyli": {
+    "description": "Clerical Script (Lishu), a squared-off and highly efficient administrative script developed and widespread during the Han Dynasty, around 202 BCE",
+    "year": {
+      "gregorian": -202,
+      "buddhist": 341
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Clerical_script",
+      "https://www.britannica.com/art/lishu",
+      "https://artsandculture.google.com/entity/clerical-script/m04h69c"
+    ]
+  },
+  "calligraphykai": {
+    "description": "Regular Script (Kaishu), the highly structured standard block-style handwriting born in the late Han and perfected during the Tang Dynasty, around 600 CE",
+    "year": {
+      "gregorian": 600,
+      "buddhist": 1143
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Regular_script",
+      "https://www.britannica.com/art/kaishu",
+      "https://artsandculture.google.com/entity/regular-script/m04h69g"
+    ]
+  },
+  "calligraphycao": {
+    "description": "Cursive Script (Caoshu), a highly simplified and continuous artistic flowing script developed from the Han through Jin Dynasties, matured around 300 CE",
+    "year": {
+      "gregorian": 300,
+      "buddhist": 843
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Cursive_script_(East_Asia)",
+      "https://www.britannica.com/art/caoshu",
+      "https://depts.washington.edu/chinaciv/callig/tcalcur.htm"
+    ]
+  },
+  "jiaguwen": {
+    "description": "Oracle Bone Script, the oldest confirmed system of Chinese writing carved on animal bones and turtle shells during the late Shang Dynasty, around 1250 BCE",
+    "year": {
+      "gregorian": -1250,
+      "buddhist": -707
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Oracle_bone_script",
+      "https://www.lib.cam.ac.uk/collections/departments/chinese/collections/oracle-bones",
+      "https://www.worldhistory.org/Oracle_Bones/"
+    ]
+  },
+  "qinjian": {
+    "description": "Qin Bamboo Slips, administrative and legal records written on bamboo strips during the state of Qin and the Qin Dynasty, around 221 BCE",
+    "year": {
+      "gregorian": -221,
+      "buddhist": 322
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Shuihudi_Qin_bamboo_texts",
+      "https://www.chinaknowledge.de/Literature/Terms/bambooslips.html",
+      "https://ctext.org/shuihudi-qin-jian"
+    ]
+  },
+  "kaichengshijing": {
+    "description": "Kaicheng Stone Classics, twelve Confucian classics carved on 114 monumental stone tablets during the Tang Dynasty, completed in 837 CE",
+    "year": {
+      "gregorian": 837,
+      "buddhist": 1380
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Kaicheng_Stone_Classics",
+      "https://en.unesco.org/memoryoftheworld/registry/388",
+      "https://www.chinaknowledge.de/Literature/Classics/shijing.html"
+    ]
+  },
+  "calligraphyzhuan": {
+    "description": "Seal Script (Zhuanshu), formal and stylized ancient script originating in the Zhou and standardized under the Qin Dynasty, around 221 BCE",
+    "year": {
+      "gregorian": -221,
+      "buddhist": 322
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Seal_script",
+      "https://www.britannica.com/art/zhuanshu",
+      "https://artsandculture.google.com/entity/seal-script/m027p_y"
+    ]
+  },
+  "hanjian": {
+    "description": "Han Bamboo Slips, wood and bamboo records providing immense insight into daily life and military border operations during the Han Dynasty, around 202 BCE",
+    "year": {
+      "gregorian": -202,
+      "buddhist": 341
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Yinqueshan_Han_slips",
+      "https://www.chinaknowledge.de/Literature/Terms/bambooslips.html",
+      "https://ctext.org/yinqueshan-han-jian"
+    ]
+  },
+  "zengyun": {
+    "description": "Later phonetic rhyme extensions and manual updates used for classical poetry composition and civil service exams, compiled around 1300 CE",
+    "year": {
+      "gregorian": 1300,
+      "buddhist": 1843
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Rime_dictionary",
+      "https://www.chinaknowledge.de/Literature/Science/zengyun.html",
+      "https://ctext.org/dictionary.pl?if=en"
+    ]
+  },
+  "hongwuzhengyun": {
+    "description": "An official imperial rhyming standard dictionary commissioned by the Ming Dynasty's Hongwu Emperor, published in 1375 CE",
+    "year": {
+      "gregorian": 1375,
+      "buddhist": 1918
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Hongwu_Zhengyun",
+      "https://www.chinaknowledge.de/Literature/Science/hongwuzhengyun.html",
+      "https://ctext.org/wiki.pl?if=en&res=446270"
+    ]
+  },
+  "standardj": {
+    "description": "Modern standard typographic glyph forms used for Japanese Kanji, tracking standards established from 1946 CE",
+    "year": {
+      "gregorian": 1946,
+      "buddhist": 2489
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/J%C5%8Dy%C5%8D_kanji",
+      "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/index.html",
+      "https://www.unicode.org/faq/han_cjk.html"
+    ]
+  },
+  "guangyun": {
+    "description": "A massive and highly influential rime dictionary compiling Middle Chinese phonology during the Song Dynasty, published in 1008 CE",
+    "year": {
+      "gregorian": 1008,
+      "buddhist": 1551
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Guangyun",
+      "https://www.chinaknowledge.de/Literature/Science/guangyun.html",
+      "https://ctext.org/guangyun"
+    ]
+  },
+  "kangxi": {
+    "description": "The Kangxi Dictionary, a definitive imperial dictionary standardizing over 47,000 characters during the Qing Dynasty, published in 1716 CE",
+    "year": {
+      "gregorian": 1716,
+      "buddhist": 2259
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Kangxi_Dictionary",
+      "https://www.kangxizidian.com/",
+      "https://ctext.org/kangxi-zidian"
+    ]
+  },
+  "standardg": {
+    "description": "Modern standard typographic glyph forms used in Mainland China, formalized starting in 1980 CE",
+    "year": {
+      "gregorian": 1980,
+      "buddhist": 2523
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Table_of_General_Standard_Chinese_Characters",
+      "http://www.gov.cn/zwgk/2013-08/19/content_2469793.htm",
+      "https://www.unicode.org/faq/han_cjk.html"
+    ]
+  },
+  "standardt": {
+    "description": "Modern standard typographic glyph forms used in Taiwan, formalized under the Standard National Characters table in 1979 CE",
+    "year": {
+      "gregorian": 1979,
+      "buddhist": 2522
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Standard_Typefaces_for_Chinese_Characters",
+      "https://language.moe.gov.tw/",
+      "https://www.unicode.org/faq/han_cjk.html"
+    ]
+  },
+  "standardh": {
+    "description": "Modern standard typographic glyph forms used in Hong Kong, tracking the List of Graphemes of Commonly Used Chinese Characters since 1986 CE",
+    "year": {
+      "gregorian": 1986,
+      "buddhist": 2529
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/List_of_Graphemes_of_Commonly-Used_Chinese_Characters",
+      "https://www.edb.gov.hk/en/curriculum-development/kla/chi-edu/resources/primary/lang/lexical-lists.html",
+      "https://www.unicode.org/faq/han_cjk.html"
+    ]
+  },
+  "standardk": {
+    "description": "Modern standard typographic glyph forms used for Korean Hanja, cataloged under the KS X 1001 standard since 1987 CE",
+    "year": {
+      "gregorian": 1987,
+      "buddhist": 2530
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/KS_X_1001",
+      "https://kats.go.kr/c/english/",
+      "https://www.unicode.org/faq/han_cjk.html"
+    ]
+  },
+  "xipingshijing": {
+    "description": "Xiping Stone Classics, the earliest official stone-carved version of the Confucian classics established during the Eastern Han Dynasty, around 175 CE",
+    "year": {
+      "gregorian": 175,
+      "buddhist": 718
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Xiping_Stone_Classics",
+      "https://www.chinaknowledge.de/Literature/Classics/stoneclassics.html",
+      "https://artsandculture.google.com/story/the-stone-classics/XwXR_p_R"
+    ]
+  },
+  "houmamengshu": {
+    "description": "Houma Covenant Texts, brush-written alliance texts on jade and stone plaques from the late Spring and Autumn period, around 497 BCE",
+    "year": {
+      "gregorian": -497,
+      "buddhist": 46
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Houma_covenant_texts",
+      "https://www.chinaknowledge.de/Literature/Terms/houmamengshu.html",
+      "https://archive.archaeology.org/9803/abstracts/houma.html"
+    ]
+  },
+  "santishijing": {
+    "description": "Three-Style Stone Classics, Confucian texts carved in three parallel historical scripts during the Cao Wei period of the Three Kingdoms, around 240 CE",
+    "year": {
+      "gregorian": 240,
+      "buddhist": 783
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Zhengshi_Stone_Classics",
+      "https://www.chinaknowledge.de/Literature/Classics/stoneclassics.html",
+      "https://ctext.org/wiki.pl?if=en&res=662972"
+    ]
+  },
+  "shiguwen": {
+    "description": "Stone Drum Script, a transitional Large Seal script carved onto ten drum-shaped granite boulders during the late Zhou or Qin state era, around 500 BCE",
+    "year": {
+      "gregorian": -500,
+      "buddhist": 43
+    },
+    "references": [
+      "https://en.wikipedia.org/wiki/Stone_Drum_inscriptions",
+      "https://www.dpm.org.cn/collection/seal/228186.html",
+      "https://artsandculture.google.com/entity/stone-drum-inscriptions/m06zg6r"
+    ]
+  },
+  "standardjk": {
+    "description": "Cross-regional font glyph mapping standard for shared Japan and Korea characters, matching the core Unicode CJK main block launched in 1992 CE",
+    "year": {
+      "gregorian": 1992,
+      "buddhist": 2535
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjke": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension E, released in 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkf": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension F, released in 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkb": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension B, released in 2001 CE",
+    "year": {
+      "gregorian": 2001,
+      "buddhist": 2544
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkd": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension D, released in 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkc": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension C, released in 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjka": {
+    "description": "Joint Japan-Korea font code subset mapping characters located within Unicode CJK Unified Ideographs Extension A, released in 1999 CE",
+    "year": {
+      "gregorian": 1999,
+      "buddhist": 2542
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbb": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension B sub-tables, around 2001 CE",
+    "year": {
+      "gregorian": 2001,
+      "buddhist": 2544
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkca": {
+    "description": "Combined character subset records mapping overlapping elements between Extension C and Extension A, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfa": {
+    "description": "Combined character subset records mapping overlapping elements between Extension F and Extension A, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkff": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension F sub-tables, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcb": {
+    "description": "Combined character subset records mapping overlapping elements between Extension C and Extension B, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfd": {
+    "description": "Combined character subset records mapping overlapping elements between Extension F and Extension D, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfc": {
+    "description": "Combined character subset records mapping overlapping elements between Extension F and Extension C, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjked": {
+    "description": "Combined character subset records mapping overlapping elements between Extension E and Extension D, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcf": {
+    "description": "Combined character subset records mapping overlapping elements between Extension C and Extension F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkef": {
+    "description": "Combined character subset records mapping overlapping elements between Extension E and Extension F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfe": {
+    "description": "Combined character subset records mapping overlapping elements between Extension F and Extension E, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdb": {
+    "description": "Combined character subset records mapping overlapping elements between Extension D and Extension B, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkee": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension E sub-tables, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkae": {
+    "description": "Combined character subset records mapping overlapping elements between Extension A and Extension E, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkce": {
+    "description": "Combined character subset records mapping overlapping elements between Extension C and Extension E, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfb": {
+    "description": "Combined character subset records mapping overlapping elements between Extension F and Extension B, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkaa": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension A sub-tables, around 1999 CE",
+    "year": {
+      "gregorian": 1999,
+      "buddhist": 2542
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkad": {
+    "description": "Combined character subset records mapping overlapping elements between Extension A and Extension D, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkec": {
+    "description": "Combined character subset records mapping overlapping elements between Extension E and Extension C, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkea": {
+    "description": "Combined character subset records mapping overlapping elements between Extension E and Extension A, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcd": {
+    "description": "Combined character subset records mapping overlapping elements between Extension C and Extension D, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkba": {
+    "description": "Combined character subset records mapping overlapping elements between Extension B and Extension A, around 2001 CE",
+    "year": {
+      "gregorian": 2001,
+      "buddhist": 2544
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbd": {
+    "description": "Combined character subset records mapping overlapping elements between Extension B and Extension D, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeb": {
+    "description": "Combined character subset records mapping overlapping elements between Extension E and Extension B, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkde": {
+    "description": "Combined character subset records mapping overlapping elements between Extension D and Extension E, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkac": {
+    "description": "Combined character subset records mapping overlapping elements between Extension A and Extension C, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdf": {
+    "description": "Combined character subset records mapping overlapping elements between Extension D and Extension F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbc": {
+    "description": "Combined character subset records mapping overlapping elements between Extension B and Extension C, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcc": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension C sub-tables, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkaf": {
+    "description": "Combined character subset records mapping overlapping elements between Extension A and Extension F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdd": {
+    "description": "Unicode CJK font glyph database combined record slice for specific Extension D sub-tables, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbf": {
+    "description": "Combined character subset records mapping overlapping elements between Extension B and Extension F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkab": {
+    "description": "Combined character subset records mapping overlapping elements between Extension A and Extension B, around 2001 CE",
+    "year": {
+      "gregorian": 2001,
+      "buddhist": 2544
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdc": {
+    "description": "Combined character subset records mapping overlapping elements between Extension D and Extension C, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeca": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, C, and A, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeab": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, A, and B, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkda": {
+    "description": "Combined character subset records mapping overlapping elements between Extension D and Extension A, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcbb": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions C, B, and B sub-tables, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcbf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions C, B, and F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkecb": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, C, and B, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdbf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions D, B, and F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeba": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, B, and A, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkddd": {
+    "description": "Unicode CJK font glyph database deep matrix configuration slice for Extension D sub-tables, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkacb": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions A, C, and B, around 2009 CE",
+    "year": {
+      "gregorian": 2009,
+      "buddhist": 2552
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbdb": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions B, D, and B sub-tables, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbcd": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions B, C, and D, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbce": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions B, C, and E, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfbd": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions F, B, and D, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdde": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions D, D, and E sub-tables, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeac": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, A, and C, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfba": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions F, B, and A, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbfe": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions B, F, and E, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkeee": {
+    "description": "Unicode CJK font glyph database deep matrix configuration slice for Extension E sub-tables, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkefd": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, F, and D, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdef": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions D, E, and F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkaad": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions A, A, and D sub-tables, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkdda": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions D, D, and A sub-tables, around 2012 CE",
+    "year": {
+      "gregorian": 2012,
+      "buddhist": 2555
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkabf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions A, B, and F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkffd": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions F, F, and D sub-tables, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkfbf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions F, B, and F sub-tables, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkead": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, A, and D, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbbf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions B, B, and F sub-tables, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbba": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping matrix parameters in Extensions B, B, and A sub-tables, around 2001 CE",
+    "year": {
+      "gregorian": 2001,
+      "buddhist": 2544
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkcde": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions C, D, and E, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkbfa": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions B, F, and A, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkefa": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, F, and A, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkecd": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, C, and D, around 2015 CE",
+    "year": {
+      "gregorian": 2015,
+      "buddhist": 2558
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  },
+  "standardjkecf": {
+    "description": "Extended cross-reference mapping cluster tracking overlapping data in Extensions E, C, and F, around 2017 CE",
+    "year": {
+      "gregorian": 2017,
+      "buddhist": 2560
+    },
+    "references": [
+      "https://www.unicode.org/reports/tr38/",
+      "https://en.wikipedia.org/wiki/CJK_Unified_Ideographs",
+      "https://appsrv.cse.cuhk.edu.hk/~irg/"
+    ]
+  }
+}
