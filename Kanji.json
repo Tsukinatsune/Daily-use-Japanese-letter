@@ -151303,16 +151303,30 @@
   },
   {
     "kanji": "凝",
-    "meaning": "",
-    "kunyomi": [],
-    "onyomi": [],
-    "jlpt": "",
-    "grade": "",
-    "stroke_count": "",
-    "frequency": "",
-    "radical": "",
-    "radical_char": "",
-    "parts": [],
+    "meaning": "congeal, freeze, stiff, be absorbed",
+    "kunyomi": [
+     "る",
+     "らす",
+     "らせる",
+     "る"
+    ],
+    "onyomi": [
+      "ギョウ"
+    ],
+    "jlpt": "N1",
+    "grade": "junior high",
+    "stroke_count": "16",
+    "frequency": "1712",
+    "radical": "ice",
+    "radical_char": "冫",
+    "parts": [
+     "冫",
+     "匕",
+     "マ",
+     "疋",
+     "矢",
+     "乞"
+    ],
     "variants": [],
     "codepoint": "U+51DD",
     "iicore": "AGTJHKMP",
