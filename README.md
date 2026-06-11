@@ -226,7 +226,7 @@ const results = await kanjiLib.fetchPaleographyBatch(nz, ['日', '月', '山']);
 Fetches paleography data directly by NZ code string.
 
 ```js
-const paleo = await kanjiLib.fetchPaleographyByNzCode('04e16');
+const paleo = await kanjiLib.fetchPaleographyByNzCode('NZ233504');
 ```
 
 ---
@@ -237,7 +237,7 @@ Looks up the NZ code for a kanji character.
 
 ```js
 const nz = await kanjiLib.fetchNzData();
-const code = kanjiLib.getNzCode(nz, '日'); // e.g. '04e16'
+const code = kanjiLib.getNzCode(nz, '日'); // e.g. 'NZ233504'
 ```
 
 ---
@@ -263,14 +263,14 @@ You can embed a paleography viewer for any kanji directly in a web page using an
 | **nichizenbu** | `https://nichizenbu.pages.dev/kanji/{nz_code}` |
 | **jouyou** | `https://jouyou.pages.dev/kanji/{nz_code}` |
 
-Replace `{nz_code}` with the NZ code for the kanji (e.g. `04e16` for 日).
+Replace `{nz_code}` with the NZ code for the kanji (e.g. `NZ233504` for 日).
 
 ### Static embed
 
 ```html
-<!-- Example: 日 (NZ code 04e16) -->
+<!-- Example: 日 (NZ code NZ233504) -->
 <iframe
-  src="https://nichizenbu.pages.dev/kanji/04e16"
+  src="https://nichizenbu.pages.dev/kanji/NZ233504"
   width="600"
   height="400"
   style="border: none;"
@@ -283,7 +283,7 @@ Or using the alternate host:
 
 ```html
 <iframe
-  src="https://jouyou.pages.dev/kanji/04e16"
+  src="https://jouyou.pages.dev/kanji/NZ233504"
   width="600"
   height="400"
   style="border: none;"
